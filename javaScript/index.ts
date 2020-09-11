@@ -1,10 +1,10 @@
-import MediaPlayer from './MediaPlayer.ts';
-import AutoPlay from './plugins/AutoPlay.ts';
-import AutoPause from './plugins/AutoPause.ts';
+import MediaPlayer from './MediaPlayer';
+import AutoPlay from './plugins/AutoPlay';
+import AutoPause from './plugins/AutoPause';
 
 const $video = document.querySelector("video");
-const $bPlay = document.querySelector(".play-toggle");
-const $bMute = document.querySelector(".mute-toggle");
+const $bPlay: HTMLHtmlElement = document.querySelector(".play-toggle");
+const $bMute: HTMLHtmlElement = document.querySelector(".mute-toggle");
 
 const player = new MediaPlayer({ 
   video: $video, 
