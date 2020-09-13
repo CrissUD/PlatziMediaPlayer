@@ -16,5 +16,7 @@
   "browserslist": [
     "last 1 Chrome version"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "@crissud/mediaplayer": "^1.0.0"
+  }
 }

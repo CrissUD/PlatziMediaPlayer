@@ -3,3 +3,4 @@ assets/videos/JavaProject.mp4
 .cache
 dist
 /typescript
+/mediaPlayer
